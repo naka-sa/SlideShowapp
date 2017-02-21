@@ -12,6 +12,11 @@
 		2A9856991E568BFC00B9DCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9856971E568BFC00B9DCE6 /* Main.storyboard */; };
 		2A98569B1E568BFC00B9DCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A98569A1E568BFC00B9DCE6 /* Assets.xcassets */; };
 		2A98569E1E568BFC00B9DCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A98569C1E568BFC00B9DCE6 /* LaunchScreen.storyboard */; };
+		2A9856A91E568E4100B9DCE6 /* food_gyuukatsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9856A51E568E4100B9DCE6 /* food_gyuukatsu.png */; };
+		2A9856AA1E568E4100B9DCE6 /* food_onion_gratin_soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9856A61E568E4100B9DCE6 /* food_onion_gratin_soup.png */; };
+		2A9856AB1E568E4100B9DCE6 /* food_ramen_iekei.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9856A71E568E4100B9DCE6 /* food_ramen_iekei.png */; };
+		2A9856AC1E568E4100B9DCE6 /* food_shrimp_cocktail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9856A81E568E4100B9DCE6 /* food_shrimp_cocktail.png */; };
+		2A9856AE1E56ECDE00B9DCE6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9856AD1E56ECDE00B9DCE6 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		2A98569A1E568BFC00B9DCE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A98569D1E568BFC00B9DCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A98569F1E568BFC00B9DCE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9856A51E568E4100B9DCE6 /* food_gyuukatsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_gyuukatsu.png; sourceTree = "<group>"; };
+		2A9856A61E568E4100B9DCE6 /* food_onion_gratin_soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_onion_gratin_soup.png; sourceTree = "<group>"; };
+		2A9856A71E568E4100B9DCE6 /* food_ramen_iekei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_ramen_iekei.png; sourceTree = "<group>"; };
+		2A9856A81E568E4100B9DCE6 /* food_shrimp_cocktail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_shrimp_cocktail.png; sourceTree = "<group>"; };
+		2A9856AD1E56ECDE00B9DCE6 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				2A9856931E568BFC00B9DCE6 /* AppDelegate.swift */,
 				2A9856951E568BFC00B9DCE6 /* ViewController.swift */,
+				2A9856A51E568E4100B9DCE6 /* food_gyuukatsu.png */,
+				2A9856A61E568E4100B9DCE6 /* food_onion_gratin_soup.png */,
+				2A9856A71E568E4100B9DCE6 /* food_ramen_iekei.png */,
+				2A9856A81E568E4100B9DCE6 /* food_shrimp_cocktail.png */,
 				2A9856971E568BFC00B9DCE6 /* Main.storyboard */,
+				2A9856AD1E56ECDE00B9DCE6 /* NextViewController.swift */,
 				2A98569A1E568BFC00B9DCE6 /* Assets.xcassets */,
 				2A98569C1E568BFC00B9DCE6 /* LaunchScreen.storyboard */,
 				2A98569F1E568BFC00B9DCE6 /* Info.plist */,
@@ -124,7 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A98569E1E568BFC00B9DCE6 /* LaunchScreen.storyboard in Resources */,
+				2A9856AB1E568E4100B9DCE6 /* food_ramen_iekei.png in Resources */,
 				2A98569B1E568BFC00B9DCE6 /* Assets.xcassets in Resources */,
+				2A9856AC1E568E4100B9DCE6 /* food_shrimp_cocktail.png in Resources */,
+				2A9856AA1E568E4100B9DCE6 /* food_onion_gratin_soup.png in Resources */,
+				2A9856A91E568E4100B9DCE6 /* food_gyuukatsu.png in Resources */,
 				2A9856991E568BFC00B9DCE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9856961E568BFC00B9DCE6 /* ViewController.swift in Sources */,
+				2A9856AE1E56ECDE00B9DCE6 /* NextViewController.swift in Sources */,
 				2A9856941E568BFC00B9DCE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sildeshowapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.satoshi.nakajima.Sildeshowapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sildeshowapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.satoshi.nakajima.Sildeshowapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
